@@ -21,19 +21,19 @@ interface Point {
   distance(other: Point): number;
 }
 
-type Todo = {
-  id: number;
-  text: string;
-  done: boolean;
-  isShow: boolean;
-};
+// type Todo = {
+//   id: number;
+//   text: string;
+//   done: boolean;
+//   isShow: boolean;
+// };
 
-const foo: Todo = {
-  id: 1,
-  text: "Zubayer",
-  done: false,
-  isShow: true,
-};
+// const foo: Todo = {
+//   id: 1,
+//   text: "Zubayer",
+//   done: false,
+//   isShow: true,
+// };
 
 // read only properties and intersection types
 type Person = Readonly<{
